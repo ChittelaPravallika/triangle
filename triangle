@@ -1,0 +1,16 @@
+def print_triangle(height):
+    """
+    Prints a right-angled triangle of specified height.
+
+    Parameters:
+    height (int): Height of the triangle.
+
+    Returns:
+    None
+    """
+    for i in range(1, height + 1):
+        print("*" * i)
+
+# Example usage:
+height = int(input("Enter the height of the triangle: "))
+print_triangle(height)
